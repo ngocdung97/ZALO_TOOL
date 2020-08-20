@@ -1,26 +1,56 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1209
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZALO_TOOL", "ZALO_TOOL\ZALO_TOOL.csproj", "{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppVeyor|Any CPU = AppVeyor|Any CPU
+		AppVeyor|ARM = AppVeyor|ARM
+		AppVeyor|x64 = AppVeyor|x64
+		AppVeyor|x86 = AppVeyor|x86
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|ARM.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|ARM.Build.0 = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|x64.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|x64.Build.0 = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|x86.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.AppVeyor|x86.Build.0 = Release|Any CPU
 		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|x64.Build.0 = Debug|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Debug|x86.Build.0 = Debug|Any CPU
 		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|ARM.Build.0 = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|x64.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|x64.Build.0 = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|x86.ActiveCfg = Release|Any CPU
+		{2121F3D2-B980-4A9E-A673-A1DE8EB59E5A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {6D54EDC8-78F8-42D8-99F9-F97A9BDBBBE7}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
